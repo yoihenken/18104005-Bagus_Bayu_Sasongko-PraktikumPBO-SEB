@@ -6,4 +6,9 @@ public class Kucing extends Hewan{
         super.bersuara();
         System.out.println("Meow... Meow...");
     }
+
+    @Override
+    void terbang() {
+        super.terbang();
+    }
 }

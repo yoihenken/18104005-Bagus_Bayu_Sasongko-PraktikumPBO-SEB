@@ -6,4 +6,9 @@ public class Burung extends Hewan {
         super.bersuara();
         System.out.println("Pit.. pit...");
     }
+
+    @Override
+    void terbang() {
+        System.out.println("Kepakan Sayap");
+    }
 }
